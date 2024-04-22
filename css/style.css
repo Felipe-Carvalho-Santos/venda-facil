@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: #F0EBF8;
+    max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+}
+
+p,
+label {
+    color: #444;
+}
+
+input {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=file] {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+    width: 400px;
+}
+
+/*cabeçalho */
+.header {
+    height: 220px;
+    width: 81.5%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-image: url('../imagem/carro.png');
+    background-repeat: no-repeat;
+}
+
+
+.header h3 {
+    color: #FFF;
+    margin-top: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+
+/* container do formulário */
+.form-container {
+    background-color: #FFF;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -79px;
+}
+
+/* cabeçalho do formulário */
+.form-header {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.form-header p {
+    color: #673AB7;
+    border-bottom: #673AB7 2px solid;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* corpo formulário */
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin: 0;
+}
+
+.required-field {
+    color: #D80835;
+}
+
+.box-input {
+    margin-bottom: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.optional_box {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.optional_list {
+    padding: 0;
+}
+
+.optional_list {
+    list-style: none;
+}
+
+.btn-submit {
+    background-color: #673AB7;
+    color: #FFF;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-submit:hover {
+    background-color: #FFF;
+    border-color: #673AB7;
+    color: #673AB7;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
